@@ -15,8 +15,8 @@ use Doctrine\Common\Collections\Collection;
 use Payum\Core\PaymentInterface as PayumPaymentInterface;
 use Payum\Core\Request\StatusRequestInterface;
 use PhpSpec\ObjectBehavior;
-use Sylius\Component\Core\Model\OrderInterface;
-use Sylius\Component\Core\Model\PaymentInterface;
+use Sylius\Bundle\PayumBundle\Model\OrderInterface;
+use Sylius\Bundle\PayumBundle\Model\PaymentInterface;
 
 class PaymentStatusActionSpec extends ObjectBehavior
 {
