@@ -18,7 +18,7 @@ use Payum\Core\Request\SecuredNotifyRequest;
 use Payum\Core\Request\SyncRequest;
 use Sylius\Bundle\PayumBundle\Payum\Action\AbstractPaymentStateAwareAction;
 use Sylius\Bundle\PayumBundle\Payum\Request\StatusRequest;
-use Sylius\Bundle\PayumBundle\Model\PaymentInterface;
+use Sylius\Component\Payment\Model\PaymentInterface;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
 class NotifyOrderAction extends AbstractPaymentStateAwareAction
